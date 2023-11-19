@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "cl-input": "/cl-uni/components/cl-input/cl-input",
+    "cl-text": "/cl-uni/components/cl-text/cl-text"
+  }
+}

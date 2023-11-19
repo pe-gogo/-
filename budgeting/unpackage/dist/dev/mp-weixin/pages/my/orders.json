@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "账单",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-index-list": "/uni_modules/vk-uview-ui/components/u-index-list/u-index-list",
+    "u-index-anchor": "/uni_modules/vk-uview-ui/components/u-index-anchor/u-index-anchor",
+    "cl-list-item": "/cl-uni/components/cl-list-item/cl-list-item",
+    "cl-text": "/cl-uni/components/cl-text/cl-text",
+    "u-modal": "/uni_modules/vk-uview-ui/components/u-modal/u-modal"
+  }
+}

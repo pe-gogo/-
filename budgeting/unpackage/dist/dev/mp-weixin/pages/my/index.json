@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "我的",
+  "usingComponents": {
+    "cl-text": "/cl-uni/components/cl-text/cl-text",
+    "cl-icon": "/cl-uni/components/cl-icon/cl-icon"
+  }
+}

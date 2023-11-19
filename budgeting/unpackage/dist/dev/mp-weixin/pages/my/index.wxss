@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* COOL-UNI 颜色变量 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page-my .user {
+  width: 750rpx;
+  height: 356rpx;
+  background: linear-gradient(180deg, #3549af, #616eaf);
+  padding-top: 60rpx;
+}
+.page-my .user .my-message {
+  position: relative;
+  top: 80rpx;
+  right: 50rpx;
+}
+.page-my .user .my-message .message {
+  position: absolute;
+  top: 38rpx;
+  right: 36rpx;
+  width: 24rpx;
+  height: 30rpx;
+}
+.page-my .user .my-message .point {
+  position: absolute;
+  top: 38rpx;
+  right: 30rpx;
+  width: 8rpx;
+  height: 8rpx;
+  background-color: #b69988;
+  border-radius: 50%;
+}
+.page-my .user .info {
+  display: flex;
+  align-items: center;
+  padding: 100rpx 30rpx 80rpx 30rpx;
+}
+.page-my .user .info .avatar {
+  width: 100rpx;
+  height: 100rpx;
+  margin-right: 24rpx;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.page-my .user .info .name {
+  flex: 1;
+}
+.page-my .user .info .name .cl-text:first-child {
+  margin-bottom: 20rpx;
+}
+.page-my .user .count {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 75rpx;
+}
+.page-my .user .count .item {
+  text-align: center;
+}
+.page-my .features {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 550rpx);
+  margin-top: -80rpx;
+  padding: 45rpx 30rpx 0 30rpx;
+  background-color: #ffffff;
+  border-radius: 40rpx 40rpx 0 0;
+  box-sizing: border-box;
+  z-index: 999;
+}
+.page-my .features .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 46rpx;
+}
+.page-my .features .title .more {
+  margin-left: auto;
+}
+.page-my .features .serve {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60rpx;
+}
+.page-my .features .serve-item {
+  text-align: center;
+  flex: 1;
+}
+.page-my .features .serve-item image {
+  width: 64rpx;
+  height: 64rpx;
+  margin-bottom: 14rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.page-my .features .entrance .item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 108rpx;
+  border-bottom: solid 1rpx #f8f8f8;
+}
+.page-my .features .entrance .item image {
+  width: 32rpx;
+  height: 32rpx;
+  margin-right: 20rpx;
+}
+.page-my .features .entrance .item-name {
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #000000;
+  flex: 1;
+}
+

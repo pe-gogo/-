@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/login/index",
+    "pages/order/index",
+    "pages/learn/index",
+    "pages/my/index",
+    "pages/home/detail",
+    "pages/register/register",
+    "pages/signUp/signUp",
+    "pages/my/orders",
+    "pages/learn/detail",
+    "pages/my/aboutUs/aboutUs",
+    "pages/learn/commits",
+    "pages/my/myOrder"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "分类报表",
+    "navigationBarBackgroundColor": "#fff"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "color": "#000",
+    "selectedColor": "#12A7FF",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/images/home.png",
+        "selectedIconPath": "static/images/home-selected.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/my/orders",
+        "text": "总账单"
+      },
+      {
+        "pagePath": "pages/my/aboutUs/aboutUs",
+        "text": "月账单"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "static/images/user.png",
+        "selectedIconPath": "static/images/user-selected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

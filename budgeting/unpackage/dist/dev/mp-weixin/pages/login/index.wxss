@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* COOL-UNI 颜色变量 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page-login {
+  padding: 166rpx 75rpx 0 75rpx;
+}
+.page-login .title {
+  margin-bottom: 80rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #000000;
+}
+.page-login .form .input {
+  margin-bottom: 40rpx;
+}
+.page-login .form .input .cl-input {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 1rpx solid #f0f0f0;
+  border-radius: 0;
+}
+.page-login .form .input .uni-input-placeholder {
+  color: #b1b1b1;
+}
+.page-login .form .login-btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100rpx;
+  margin-bottom: 180rpx;
+}
+.page-login .form .login-btn .btn {
+  width: 600rpx;
+  height: 80rpx;
+  background: #3549af;
+  border-radius: 40rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #ffffff;
+}
+.page-login .mode {
+  text-align: center;
+}
+.page-login .mode .list {
+  display: flex;
+  margin-top: 62rpx;
+  margin-bottom: 126rpx;
+}
+.page-login .mode .list .item {
+  text-align: center;
+  flex: 1;
+}
+.page-login .mode .list .item image {
+  width: 80rpx;
+  height: 78rpx;
+}
+.page-login .pact {
+  text-align: center;
+}
+

@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* COOL-UNI 颜色变量 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.charts.data-v-62b3f318 {
+  width: 750rpx;
+  height: 500rpx;
+}
+/* 请根据实际需求修改父元素尺寸，组件自动识别宽高 */
+.charts-box.data-v-62b3f318 {
+  width: 100%;
+  height: 300px;
+}
+.discuss.data-v-62b3f318 {
+  margin-bottom: 71rpx;
+}
+.discuss__top.data-v-62b3f318 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30rpx;
+}
+.discuss__top-title.data-v-62b3f318 {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #21201e;
+}
+.discuss__top-more.data-v-62b3f318 {
+  display: flex;
+  align-items: center;
+}
+.discuss__top-more text.data-v-62b3f318 {
+  margin-right: 5rpx;
+  font-size: 20rpx;
+  font-weight: 400;
+  color: #929699;
+}
+.discuss__content.data-v-62b3f318 {
+  position: relative;
+  display: flex;
+  width: 690rpx;
+  margin: 0 auto;
+  margin-top: 51rpx;
+  margin-bottom: 71rpx;
+  border-bottom: solid 1rpx #ebebeb;
+}
+.discuss__content-icon.data-v-62b3f318 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35rpx;
+  height: 35rpx;
+  background-color: rgba(18, 167, 255, 0.2);
+  border-radius: 50%;
+  font-size: 28rpx;
+  color: #12a7ff;
+  position: absolute;
+  top: 6rpx;
+  left: 0;
+}
+.discuss__content-main.data-v-62b3f318 {
+  padding-left: 50rpx;
+  flex: 1;
+  padding-right: 150rpx;
+  /* 留出按钮位置 */
+}
+.discuss__content-button.data-v-62b3f318 {
+  position: absolute;
+  right: 30rpx;
+  bottom: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100rpx;
+  height: 46rpx;
+  background: #12a7ff;
+  border-radius: 23rpx;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #fffcfc;
+  white-space: nowrap;
+  /* 不换行 */
+}
+.discuss__title.data-v-62b3f318 {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #21201e;
+  line-height: 48rpx;
+}
+.discuss__time.data-v-62b3f318 {
+  display: flex;
+}
+.discuss__begin.data-v-62b3f318 {
+  margin-top: 33rpx;
+  margin-right: 45rpx;
+  font-size: 20rpx;
+  font-weight: 500;
+  color: #21201e;
+}
+.discuss__reservation.data-v-62b3f318 {
+  margin-top: 34rpx;
+  margin-bottom: 43rpx;
+  font-size: 20rpx;
+  font-weight: 500;
+  color: #929699;
+}
+

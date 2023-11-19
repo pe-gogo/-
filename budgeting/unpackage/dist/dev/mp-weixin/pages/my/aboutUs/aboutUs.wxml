@@ -1,0 +1,1 @@
+<view class="discuss data-v-6360f046" style="padding:0;"><view class="discuss__top data-v-6360f046"><view class="discuss__top-title data-v-6360f046">月度收支</view></view><view class="charts-box data-v-6360f046"><qiun-data-charts vue-id="08bc166e-1" type="column" opts="{{opts}}" chartData="{{chartData}}" class="data-v-6360f046" bind:__l="__l"></qiun-data-charts></view></view>

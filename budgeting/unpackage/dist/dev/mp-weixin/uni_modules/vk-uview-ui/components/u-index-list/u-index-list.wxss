@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* COOL-UNI 颜色变量 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.u-index-bar.data-v-aeb1c62a {
+  position: relative;
+}
+.u-index-bar__sidebar.data-v-aeb1c62a {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-user-select: none;
+          user-select: none;
+  z-index: 99;
+}
+.u-index-bar__index.data-v-aeb1c62a {
+  font-weight: 500;
+  padding: 8rpx 18rpx;
+  font-size: 22rpx;
+  line-height: 1;
+}
+.u-indexed-list-alert.data-v-aeb1c62a {
+  position: fixed;
+  width: 120rpx;
+  height: 120rpx;
+  right: 90rpx;
+  top: 50%;
+  margin-top: -60rpx;
+  border-radius: 24rpx;
+  font-size: 50rpx;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.65);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  z-index: 9999999;
+}
+.u-indexed-list-alert text.data-v-aeb1c62a {
+  line-height: 50rpx;
+}
+

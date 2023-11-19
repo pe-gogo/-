@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "已购",
+  "usingComponents": {
+    "cl-text": "/cl-uni/components/cl-text/cl-text",
+    "cl-icon": "/cl-uni/components/cl-icon/cl-icon",
+    "cl-popup": "/cl-uni/components/cl-popup/cl-popup",
+    "cl-row": "/cl-uni/components/cl-row/cl-row",
+    "cl-col": "/cl-uni/components/cl-col/cl-col"
+  }
+}

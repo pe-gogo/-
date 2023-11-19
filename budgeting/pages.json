@@ -1,0 +1,147 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "已购"
+			}
+		},
+		{
+			"path": "pages/learn/index",
+			"style": {
+				"navigationBarTitleText": "日报表"
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationStyle": "custom",
+
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/home/detail"
+		}
+	    ,{
+            "path" : "pages/register/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+				"navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/signUp/signUp",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/orders",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "账单",
+                "enablePullDownRefresh": false
+				
+            }
+            
+        }
+        ,{
+            "path" : "pages/learn/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/aboutUs/aboutUs",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/learn/commits",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/myOrder",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"subPackages": [
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "分类报表",
+		"navigationBarBackgroundColor": "#fff"
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"cl-(.*)": "@/cl-uni/components/cl-$1/cl-$1.vue"
+		}
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"color": "#000",
+		"selectedColor": "#12A7FF",
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/images/home.png",
+				"selectedIconPath": "static/images/home-selected.png",
+				"text": "发现"
+			},
+			{
+			    "pagePath" : "pages/my/orders",
+				"text": "总账单"
+			},
+			{
+			    "pagePath" : "pages/my/aboutUs/aboutUs",
+				"text": "月账单"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"iconPath": "static/images/user.png",
+				"selectedIconPath": "static/images/user-selected.png",
+				"text": "我的"
+			}
+		]
+	}
+}

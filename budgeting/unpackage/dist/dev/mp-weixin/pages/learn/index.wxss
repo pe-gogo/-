@@ -1,0 +1,226 @@
+@charset "UTF-8";
+/* COOL-UNI 颜色变量 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  width: 100%;
+  height: 100%;
+}
+.page-reservation-1 {
+  width: 100%;
+  height: 100%;
+}
+.page-reservation-1 .bgc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.page-reservation-1 .title {
+  display: flex;
+  align-items: center;
+  padding: 0 30rpx;
+}
+.page-reservation-1 .title image {
+  width: 44rpx;
+  height: 44rpx;
+  margin-right: 12rpx;
+}
+.page-reservation-1 .select-date {
+  margin-bottom: 24rpx;
+  padding-top: 50rpx;
+  padding-bottom: 40rpx;
+}
+.page-reservation-1 .select-date .topbar {
+  margin-bottom: 57rpx;
+}
+.page-reservation-1 .select-date .list {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 31rpx;
+}
+.page-reservation-1 .select-date .list ::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+  color: transparent;
+  background: transparent;
+}
+.page-reservation-1 .select-date .list .item {
+  display: inline-block;
+  width: 124rpx;
+  height: 206rpx;
+  background-color: #ffffff;
+  border-radius: 20rpx;
+  margin-right: 30rpx;
+}
+.page-reservation-1 .select-date .list .item.item:first-child {
+  margin-left: 30rpx;
+}
+.page-reservation-1 .select-date .list .item.is-active {
+  background: linear-gradient(180deg, #89ebd9 0%, #45c5ae 100%);
+  box-shadow: 0 10rpx 16rpx rgba(71, 198, 175, 0.45);
+  border: 0;
+}
+.page-reservation-1 .select-date .list .item.is-active text {
+  color: #ffffff;
+}
+.page-reservation-1 .select-date .list .item-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.page-reservation-1 .select-date .list .item-box text {
+  display: block;
+}
+.page-reservation-1 .select-date .list .item-box .day {
+  margin-bottom: 20rpx;
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #16213c;
+}
+.page-reservation-1 .select-date .list .item-box .week {
+  font-size: 24rpx;
+  color: #9ca5be;
+}
+.page-reservation-1 .select-time {
+  margin-bottom: 24rpx;
+  padding-top: 50rpx;
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.4) 37%, rgba(255, 255, 255, 0.22) 87%, rgba(255, 255, 255, 0.36) 100%);
+}
+.page-reservation-1 .select-time .select {
+  display: flex;
+  align-items: center;
+  margin-top: 46rpx;
+  margin-bottom: 40rpx;
+  padding: 0 30rpx;
+}
+.page-reservation-1 .select-time .select .item {
+  font-size: 32rpx;
+  font-weight: 400;
+  color: #959595;
+  text-align: center;
+  flex: 1;
+}
+.page-reservation-1 .select-time .select .item.item:first-child {
+  border-right: 2rpx solid #c7c7c7;
+}
+.page-reservation-1 .select-time .select .item.is-active {
+  color: #3cad99;
+}
+.page-reservation-1 .select-time .list {
+  padding: 0 30rpx;
+}
+.page-reservation-1 .select-time .list .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80rpx;
+  margin-bottom: 30rpx;
+  background: #ffffff;
+  border: 1rpx solid #dff2f2;
+  border-radius: 20rpx;
+  text-align: center;
+  font-size: 32rpx;
+  font-weight: 400;
+  color: #959595;
+}
+.page-reservation-1 .select-time .list .item.is-active {
+  background: linear-gradient(180deg, #88ead8 0%, #46c6af 100%);
+  color: #ffffff;
+}
+.page-reservation-1 .service {
+  padding-top: 51rpx;
+  padding-bottom: 20rpx;
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.4) 37%, rgba(255, 255, 255, 0.22) 87%, rgba(255, 255, 255, 0.36) 100%);
+}
+.page-reservation-1 .service .list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 39rpx;
+  padding-left: 30rpx;
+}
+.page-reservation-1 .service .list .item {
+  display: flex;
+  align-items: center;
+  height: 80rpx;
+  margin-right: 30rpx;
+  margin-bottom: 30rpx;
+  padding: 0 41rpx;
+  background-color: #ffffff;
+  border: 1rpx solid #dff2f2;
+  border-radius: 20rpx;
+  font-size: 32rpx;
+  font-weight: 400;
+  color: #959595;
+}
+.page-reservation-1 .service .list .item.is-active {
+  background: linear-gradient(180deg, #88ead8 0%, #46c6af 100%);
+  color: #ffffff;
+}
+.data-list {
+  padding: 20rpx;
+}
+.record {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+  border-radius: 10rpx;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+}
+.record-info {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  /* 让这个元素填充剩余空间 */
+}
+.category {
+  font-size: 30rpx;
+  color: #333;
+  width: 30%;
+  /* 设置宽度为30% */
+  text-align: left;
+}
+.amount {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #f44336;
+  width: 30%;
+  /* 设置宽度为30% */
+  text-align: right;
+}
+.amount.income {
+  color: #4caf50;
+}
+.record-time {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 40%;
+  /* 设置宽度为40% */
+}
+.remark-time {
+  font-size: 24rpx;
+  color: #999;
+}
+.remark {
+  font-size: 28rpx;
+  color: #666;
+}
+

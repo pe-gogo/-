@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* COOL-UNI 颜色变量 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.u-badge.data-v-3a786b23 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 24rpx;
+  padding: 4rpx 8rpx;
+  border-radius: 100rpx;
+  z-index: 9;
+}
+.u-badge--bg--primary.data-v-3a786b23 {
+  background-color: #2979ff;
+}
+.u-badge--bg--error.data-v-3a786b23 {
+  background-color: #fa3534;
+}
+.u-badge--bg--success.data-v-3a786b23 {
+  background-color: #19be6b;
+}
+.u-badge--bg--info.data-v-3a786b23 {
+  background-color: #909399;
+}
+.u-badge--bg--warning.data-v-3a786b23 {
+  background-color: #ff9900;
+}
+.u-badge-dot.data-v-3a786b23 {
+  height: 16rpx;
+  width: 16rpx;
+  border-radius: 100rpx;
+  line-height: 1;
+}
+.u-badge-mini.data-v-3a786b23 {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+.u-info.data-v-3a786b23 {
+  background-color: #909399;
+  color: #fff;
+}
+
